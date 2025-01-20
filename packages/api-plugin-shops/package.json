@@ -26,20 +26,20 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@reactioncommerce/api-utils": "^2.0.0",
-    "@reactioncommerce/logger": "~1.1.2",
-    "@reactioncommerce/random": "~1.0.2",
-    "@reactioncommerce/reaction-error": "~1.0.1",
+    "@reactioncommerce/api-utils": "file:../api-utils",
+    "@reactioncommerce/logger": "file:../logger",
+    "@reactioncommerce/random": "file:../random",
+    "@reactioncommerce/reaction-error": "file:../reaction-error",
     "simpl-schema": "~1.12.0"
   },
   "peerDependencies": {
-    "@reactioncommerce/api-plugin-address-validation": "~2.0.0"
+    "@reactioncommerce/api-plugin-address-validation": "file:../api-plugin-address-validation"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
-    "@reactioncommerce/babel-remove-es-create-require": "~1.0.0",
-    "@reactioncommerce/data-factory": "~1.0.1",
+    "@reactioncommerce/babel-remove-es-create-require": "1.0.0",
+    "@reactioncommerce/data-factory": "1.0.1",
     "babel-plugin-rewire-exports": "^2.0.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-plugin-transform-import-meta": "~1.0.0"

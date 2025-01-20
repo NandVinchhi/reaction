@@ -26,20 +26,20 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@reactioncommerce/api-utils": "^2.0.0",
-    "@reactioncommerce/file-collections": "^0.10.0",
-    "@reactioncommerce/file-collections-sa-gridfs": "~0.2.0",
-    "@reactioncommerce/logger": "~1.1.4",
-    "@reactioncommerce/random": "~1.0.2",
-    "@reactioncommerce/reaction-error": "~1.0.1",
+    "@reactioncommerce/api-utils": "file:../api-utils",
+    "@reactioncommerce/file-collections": "file:../file-collections",
+    "@reactioncommerce/file-collections-sa-gridfs": "file:../file-collections-sa-gridfs",
+    "@reactioncommerce/logger": "file:../logger",
+    "@reactioncommerce/random": "file:../random",
+    "@reactioncommerce/reaction-error": "file:../reaction-error",
     "envalid": "^6.0.2",
     "node-fetch": "~2.6.2",
     "sharp": "^0.30.7",
     "simpl-schema": "~1.10.2"
   },
   "devDependencies": {
-    "@reactioncommerce/babel-remove-es-create-require": "~1.0.0",
-    "@reactioncommerce/data-factory": "~1.0.1"
+    "@reactioncommerce/babel-remove-es-create-require": "1.0.0",
+    "@reactioncommerce/data-factory": "1.0.1"
   },
   "publishConfig": {
     "access": "public"

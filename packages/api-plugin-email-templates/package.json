@@ -26,16 +26,16 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@reactioncommerce/api-utils": "^2.0.0",
-    "@reactioncommerce/logger": "^1.1.4",
-    "@reactioncommerce/random": "^1.0.2",
-    "@reactioncommerce/reaction-error": "^1.0.1",
+    "@reactioncommerce/api-utils": "file:../api-utils",
+    "@reactioncommerce/logger": "file:../logger",
+    "@reactioncommerce/random": "file:../random",
+    "@reactioncommerce/reaction-error": "file:../reaction-error",
     "handlebars": "^4.7.6",
     "simpl-schema": "^1.12.0"
   },
   "devDependencies": {
-    "@reactioncommerce/babel-remove-es-create-require": "~1.0.0",
-    "@reactioncommerce/data-factory": "~1.0.1"
+    "@reactioncommerce/babel-remove-es-create-require": "1.0.0",
+    "@reactioncommerce/data-factory": "1.0.1"
   },
   "publishConfig": {
     "access": "public"

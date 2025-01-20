@@ -29,9 +29,9 @@
   "sideEffects": false,
   "dependencies": {
     "simpl-schema": "^1.12.2",
-    "@reactioncommerce/logger": "^1.1.4",
-    "@reactioncommerce/reaction-error": "^1.0.1",
-    "@reactioncommerce/api-utils": "^2.0.0"
+    "@reactioncommerce/logger": "file:../logger",
+    "@reactioncommerce/reaction-error": "file:../reaction-error",
+    "@reactioncommerce/api-utils": "file:../api-utils"
   },
   "devDependencies": {},
   "scripts": {

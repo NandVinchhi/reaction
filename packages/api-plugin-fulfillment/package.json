@@ -28,17 +28,17 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@reactioncommerce/logger": "^1.1.3",
-    "@reactioncommerce/api-utils": "^2.0.0",
-    "@reactioncommerce/reaction-error": "^1.0.1",
-    "@reactioncommerce/random": "^1.0.2",
-    "@reactioncommerce/db-version-check": "^1.0.0",
+    "@reactioncommerce/logger": "file:../logger",
+    "@reactioncommerce/api-utils": "file:../api-utils",
+    "@reactioncommerce/reaction-error": "file:../reaction-error",
+    "@reactioncommerce/random": "file:../random",
+    "@reactioncommerce/db-version-check": "file:../db-version-check",
     "lodash": "^4.17.21",
     "simpl-schema": "^1.12.2"
   },
   "devDependencies": {
-    "@reactioncommerce/api-plugin-carts": "^2.0.0",
-    "@reactioncommerce/data-factory": "~1.0.1"
+    "@reactioncommerce/api-plugin-carts": "file:../api-plugin-carts",
+    "@reactioncommerce/data-factory": "1.0.1"
   },
   "scripts": {
     "lint": "npm run lint:eslint",

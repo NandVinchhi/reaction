@@ -26,9 +26,9 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@reactioncommerce/api-utils": "^2.0.0",
-    "@reactioncommerce/random": "~1.0.2",
-    "@reactioncommerce/db-version-check": "^1.0.0",
+    "@reactioncommerce/api-utils": "file:../api-utils",
+    "@reactioncommerce/random": "file:../random",
+    "@reactioncommerce/db-version-check": "file:../db-version-check",
     "simpl-schema": "^3.4.1"
   },
   "scripts": {
@@ -37,8 +37,8 @@
     "test:file": "jest --no-cache --watch --coverage=false"
   },
   "devDependencies": {
-    "@reactioncommerce/babel-remove-es-create-require": "~1.0.0",
-    "@reactioncommerce/data-factory": "~1.0.1"
+    "@reactioncommerce/babel-remove-es-create-require": "1.0.0",
+    "@reactioncommerce/data-factory": "1.0.1"
   },
   "publishConfig": {
     "access": "public"
